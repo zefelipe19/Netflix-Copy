@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: Bebas;
+    src: url("./fonts/BebasNeue-Regular.ttf");
+}
+
+body {
+    background-image: url("./images/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: grid;    
+}
+
+/* ------------------ Area do header ------------------- */
+
+.menu {
+    list-style: none;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.832);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: red;
+    font-size: 50px;
+    font-family: Bebas;
+    margin: 10px;
+    padding: 15px;
+}
+
+.nav_button {
+    background-color: red;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    height: 20px;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0 30px 0 0;
+}
+
+
+/* ------------------ Area do main ------------------- */
+
+main {
+    color: white;
+    justify-content: center;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.784);
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    padding: 150px 0 120px 0;
+}
+
+.sub {
+    font-size: 25px;
+}
+
+.contato {
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.label_button {
+    box-sizing: border-box;
+    height: 50px;
+    font-size: 25px;
+    border: 10px solid red;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+
+.contact_input {
+    width: 450px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+/* ------------------ Area do footer ------------------- */
+
+footer {
+    color: white;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    border-top: 2px solid gray;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: red;
+}
